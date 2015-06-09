@@ -1,28 +1,5 @@
-== README
+== Don't be a coward
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Training project in Ruby on Rails.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Application that allows you to send challenges to other friends by email. The user "challenged" can answer your challenge or decline it. If it declines, public humiliation will be in all social networks and, if accepted, must present evidence about it.
