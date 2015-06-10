@@ -6,5 +6,6 @@
     order: [:day, :month, :year],
     start_year: Date.today.year
   %>
+  <%= f.input :deadline, as: :string, input_html: { 'data-provide' => 'datepicker' }  %>
   <%= f.submit %>
 <% end %>
