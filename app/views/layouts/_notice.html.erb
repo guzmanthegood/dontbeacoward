@@ -1,13 +1,6 @@
-<% if notice.present? %>
-  <div class="alert alert-info" role="alert">
-    <%= fa_icon "info" %>
-    <%= notice %>
-  </div>
-<% end %>
-
-<% if alert.present? %>
-  <div class="alert alert-danger" role="alert">
-    <%= fa_icon "warning" %>
-    <%= alert %>
+<% flash.each do |key, value| %>
+  <div class="alert alert-<%= key %>" role="alert">
+    <%= notice_icon key %>
+    <%= value %>
   </div>
 <% end %>

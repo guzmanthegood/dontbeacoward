@@ -11,9 +11,10 @@ class ChallengesController < ApplicationController
     @challenge = Challenge.new(challenge_params)
     
     if @challenge.save(challenge_params)
-      flash.now[:notice] = "New challenge has been created"
+      flash[:success] = "New challenge has been created"
+      redirect_to root_path
     else
-      flash.now[:alert] = "An error has ocurred"
+      flash.now[:danger] = "An error has ocurred"
       render :new
     end
   end
