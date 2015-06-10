@@ -13,6 +13,7 @@ gem 'jbuilder'
 
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'sass-rails', '>= 3.2'
+gem 'font-awesome-rails'
 
 group :development, :test do
   gem 'sqlite3'

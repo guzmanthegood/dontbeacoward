@@ -77,6 +77,8 @@ GEM
     factory_girl_rails (4.5.0)
       factory_girl (~> 4.5.0)
       railties (>= 3.0.0)
+    font-awesome-rails (4.3.0.0)
+      railties (>= 3.2, < 5.0)
     headless (2.1.0)
     hike (1.2.3)
     http-cookie (1.0.2)
@@ -213,6 +215,7 @@ DEPENDENCIES
   coffee-rails
   database_cleaner
   factory_girl_rails
+  font-awesome-rails
   headless
   jbuilder
   jquery-rails
