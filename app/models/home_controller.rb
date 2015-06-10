@@ -4,6 +4,7 @@ class HomeController < ApplicationController
   end
 
   def about
+    @challenge = Challenge.new
   end
   
 end

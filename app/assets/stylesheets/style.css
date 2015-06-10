@@ -5,3 +5,7 @@ body {
 .navbar-static-top {
   margin-bottom: 19px;
 }
+
+.about-content > div {
+  border-left: 1px solid orange;
+}
