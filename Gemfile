@@ -15,7 +15,7 @@ gem 'sass-rails', '>= 3.2'
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'bootstrap-datepicker-rails'
 gem 'bootstrap-timepicker-rails'
-gem 'bootstrap_form'
+gem 'simple_form'
 gem 'font-awesome-rails'
 
 group :development, :test do

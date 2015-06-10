@@ -1,5 +1,10 @@
-<%= bootstrap_form_for(@challenge) do |f| %>
-  <%= f.text_field :from %>
-  <%= f.text_field :to %>
+<%= simple_form_for @challenge do |f| %>
+  <%= f.input :from, hint: 'your mother likes' %>
+  <%= f.input :to %>
+  <%= f.input :deadline, 
+    as: :datetime, 
+    order: [:day, :month, :year],
+    start_year: Date.today.year
+  %>
   <%= f.submit %>
 <% end %>
