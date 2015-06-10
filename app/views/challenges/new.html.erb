@@ -1,4 +1,4 @@
-<%= form_for [@challenge] do |f| %>
-  <%= f.text_field :from %>
-  <%= f.text_field :to %>
-<% end %>
+<h1>New challenge</h1>
+
+<%= render 'form' %>
+<%= link_to 'Back', challenges_path %>
